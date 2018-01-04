@@ -7,16 +7,16 @@ print 'Pick an adjective'
 #Has the user input an adjective which gets saved as the string adj1
 adj1 = raw_input()
 
-# *** Ask the user to 'Pick a plural noun':
+# *** step one: Ask the user to 'Pick a plural noun':
 
 
-# *** Allow the user to input his/her response:
+# *** step two: Allow the user to input his/her response:
 noun =
 
-# *** Ask the user to 'Pick an activity':
+# *** step three: Ask the user to 'Pick an activity':
 
 
-# *** Allow the user to input his/her response:
+# *** step four: Allow the user to input his/her response:
 noun2 =
 
 #This is where the story for each mad lib will go
