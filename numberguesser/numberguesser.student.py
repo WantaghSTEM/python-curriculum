@@ -14,24 +14,24 @@ number = random.randint(minimum, maximum)
 
 
 # User writes in their name, code saves input as username
-# *** step two: write definition of username as input below using raw_input() ***
+# *** step three: write definition of username as input below using raw_input() ***
 username =
 
 # Tells user the range of numbers to guess from
-# *** step three: write print statement using maximum and minimum below ***
-print username + ', I am thinking of a number between ' + str(minimum) + " and " + str(maximum)
+# *** step four: write print statement using maximum and minimum below ***
+
 
 # Counts the number of guesses so far, starting with none
 guessesTaken = 0
 
-# *** step four: write while loop and conditional below ***
+# *** step five: write while loop and conditional below ***
 while
     print 'Take a guess.'  # providing these four lines for you
     guess = raw_input()
     guess = int(guess)
     guessesTaken = guessesTaken + 1
 
-    # *** step five: create two if statements when guess is too low and too high below ***
+    # *** step six: create two if statements when guess is too low and too high below ***
     if
         print 'Your guess is too low.'
     if
@@ -41,12 +41,10 @@ while
     if guess == number:
         break
 
-# *** step six: create two if statements when guess is correct and incorrect ***
+# *** step seven: create two if statements when guess is correct and incorrect ***
 if
-    guessesTaken = str(guessesTaken)
-    print "Good job, " + username + "! You guessed my number in " + guessesTaken + " guesses!"
+    print "Good job,", username, "! You guessed my number in", guessesTaken, "guesses!"
 
 if
-    number = str(number)
-    print "Nope. The number I was thinking of was " + number
+    print "Nope. The number I was thinking of was", number
 
